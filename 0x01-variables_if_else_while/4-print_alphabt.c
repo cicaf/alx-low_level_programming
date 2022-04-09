@@ -1,18 +1,21 @@
 #include <stdio.h>
-
-
 /**
- * main  - prints the lettersof alphabets
+ * main - represent Entry Point to the program
+ * Return: 0 to show (Succes)
  *
- * return  0
  */
-
-int main (void)
+int main(void)
 {
-/*Declarations*/
-	char letter;
-	for (letter = 'a'; letter <= 'z'; letter++)
+	char a;
+
+	for (a = 'a'; a <= 'z' ; a++)
 	{
-	if (letter != 'e' && letter != 'q')
+		if (a == 'q' || a == 'e')
+		{
+			continue;
+		}
+		putchar(a);
 	}
+	putchar('\n');
+	return (0);
 }
