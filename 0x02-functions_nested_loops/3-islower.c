@@ -3,6 +3,7 @@
 /**
  * _islower - the main running function.
  * @c: the parameter
+ * Return: 1 or 0 binary
  */
 int _islower(int c)
 {
