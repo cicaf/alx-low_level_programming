@@ -1,4 +1,8 @@
 #include "main.h"
+/**
+ * jack_bauer - a void function.
+ * Return: nothing really.
+ */
 void jack_bauer(void)
 {
 	int hr;
