@@ -1,5 +1,10 @@
 #include "main.h"
 #include <stdio.h>
+/**
+ * print_to_98 - an int printing function.
+ * @n: is an integer parameter.
+ *Return: just adds but its void return.
+ */
 void print_to_98(int n)
 {
 	if (n <= 98)
