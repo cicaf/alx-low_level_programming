@@ -1,5 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+/**
+ * main - insertion of the program.
+ * Return: is just void
+ */
 int main(void)
 {
 	double a = 0;

@@ -1,5 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+/**
+ * main - this main function is the entrance.
+ * Return: is a void return still.
+ */
 int main(void)
 {
 	double a = 0;
