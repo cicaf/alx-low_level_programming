@@ -1,4 +1,8 @@
 #include "main.h"
+/**
+ * times_table - a math table function.
+ * Return: Is a void again
+ */
 void times_table(void)
 {
 	int x, y, product;
