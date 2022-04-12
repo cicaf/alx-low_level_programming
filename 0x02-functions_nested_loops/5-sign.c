@@ -1,4 +1,9 @@
 #include "main.h"
+/**
+ * print_sign - heres where it all begins.
+ * @n: its an integer.
+ * Return: ought to be a negative or positive.
+ */
 int print_sign(int n)
 {
 	if (n > 0)
