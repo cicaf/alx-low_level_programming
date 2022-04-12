@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - entrance.
- * Return: exit
+ * _islower - the main running function.
+ * @c: the parameter
  */
 int _islower(int c)
 {
