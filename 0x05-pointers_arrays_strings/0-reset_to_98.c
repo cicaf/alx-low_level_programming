@@ -9,5 +9,17 @@
  * Return: n
  */
 void reset_to_98(int *n){
-	n*=98;
+	*n=98;
+}
+int main()
+{
+	int num;
+	num = 50;
+	int *pnum = NULL;
+	pnum = &num;
+	reset_to_98(&num);
+	printf("num=%d\n", num);
+
+	return 0;
+
 }
