@@ -15,7 +15,7 @@ int main()
 {
 	int num;
 	num = 50;
-	int *pnum = NULL;
+	//int *pnum = NULL;
 	pnum = &num;
 	reset_to_98(&num);
 	printf("num=%d\n", num);
