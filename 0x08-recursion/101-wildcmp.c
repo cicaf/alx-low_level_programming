@@ -2,7 +2,7 @@ int recursive_check(char *s1, char *s2, int wildC);
 /**
  * wildcmp - uses  wildcard '*' and able to search
  *
- * @s1: the string 1 
+ * @s1: the string
  * @s2: the string 2
  *
  * Return: 1 if identical, 0 otherwise, -1 for error
