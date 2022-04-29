@@ -2,7 +2,7 @@
 
 /**
   * _pow_recursion - x powered by y
-  * @x: the number 
+  * @x: the number
   * @y: the times to multiply the value
   *
   * Return: the value
