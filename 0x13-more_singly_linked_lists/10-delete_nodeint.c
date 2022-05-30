@@ -1,44 +1,43 @@
-#include <stlib.h>
+#include <stdlib.h>
 #include <stdio.h>
 #include "lists.h"
 
 /**
-  * delete_nodeint_at_index - del node.
-  * @head: pointer.
-  * @index: Position  node on the list.
+  * delete_nodeint_at_index - it says exactly what it does.
+  * @head: kichwa tu ya the program
+  * @index: like indices 
   *
-  * Description: The function dels  nth node of  a linked list.
-  * Return: 1 on success else -1.
+  * Return: 1 if succesful or -1 if nuuh
   */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
-	listint_t *node = *head;
-	listint_t *temp;
-	unsigned int i = 1;
+	unsigned int count = 1;
+	listint_t *new = *head, *temp;
 
-	if (head == 0 || *head == 0)
+	if (!head || !*head)
 		return (-1);
 
 	if (index == 0)
 	{
-		temp = *head;
-		*head = (*head)->next;
-		free(temp);
-
+		*head = new->next;
+		free(new);
 		return (1);
 	}
 
-	while (i < index)
+	temp = *head;
+	while (temp)
 	{
-		node = node->next;
+		if (count == index)
+		{
+			new = temp->next;
+			temp->next = new->next;
+			free(new);
+			return (1);
+		}
 
-		if (node == 0)
-			return (-1);
-		i++;
+		temp = temp->next;
+		count++;
 	}
-	temp = node->next;
-	node->next = node->next->next;
-	free(temp);
 
-	return (1);
+	return (-1);
 }
