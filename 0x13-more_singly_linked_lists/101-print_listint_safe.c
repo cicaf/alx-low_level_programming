@@ -1,9 +1,10 @@
+#include <stdlib.h>
+#include <stdio.h>
 #include "lists.h"
 
 /**
  * free_aux - list
  * @p: head.
- *
  * Return: null.
  */
 void free_aux(aux_list *p)
