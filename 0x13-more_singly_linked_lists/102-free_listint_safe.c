@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <stdio.h>
 #include "lists.h"
 /**
  * free_listint_safe - list safe.
