@@ -5,9 +5,8 @@
 /**
   * delete_nodeint_at_index - it says exactly what it does.
   * @head: kichwa tu ya the program
-  * @index: like indices 
-  *
-  * Return: 1 if succesful or -1 if nuuh
+  * @index: like indices
+  *Return: 1 if succesful or -1 if nuuh
   */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
